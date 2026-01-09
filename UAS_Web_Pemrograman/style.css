@@ -1,0 +1,94 @@
+/* Default*/
+body {
+  font-family: Arial, sans-serif;
+  background-color: hwb(0 100% 0%);
+}
+
+/*HOME*/
+
+.custom-card {
+  border: none;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 10px 25px rgba(255, 0, 0, 0.904);
+  transition: all 0.3s ease;
+}
+
+.custom-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 35px rgb(255, 255, 255);
+}
+
+.custom-img {
+  padding: 16px;
+  border-radius: 26px;
+  object-fit: cover;
+}
+
+.card-text {
+  color: #103d79;
+  font-size: 0.95rem;
+}
+
+.custom-navbar {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  padding: 14px 0;
+  box-shadow: 0 8px 24px rgba(247, 0, 0, 0.15);
+}
+
+.custom-navbar .navbar-brand {
+  color: #00aeff;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+}
+
+.custom-navbar .navbar-brand:hover {
+  color: #00aeff;
+}
+
+.custom-navbar .nav-link {
+  color: rgb(255, 255, 255);
+  margin-left: 20px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.custom-navbar .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 4px;
+  width: 0;
+  height: 2px;
+  background: #0099ff;
+  transition: width 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ff0000;
+}
+
+.custom-navbar .nav-link:hover::after {
+  width: 100%;
+}
+
+/*Banner Earth*/
+.banner {
+ 
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+
+  transition: all 0.3s ease;
+}
+
+
+/*GALLERY*/
+body.gallery-page {
+  background-color: #ffffff;
+}
+
+/*PROFILE*/
+body.profile-page {
+  background: linear-gradient(135deg, #725c5c, #ffffff);
+}
